@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVEL BLOG</title>
+
+      <!-- bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+      <!-- fontawesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+      <!-- google font -->
+  
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href=" https://static.vecteezy.com/system/resources/previews/026/706/120/non_2x/airplane-travel-concept-with-map-pin-icon-airplane-icon-travel-icon-vector.jpg" >
+
+  <style>
+    *{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .text-overlay {
+            position: absolute;
+            top: 20%;
+            left: 5%;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 40px;
+            border-radius: 10%;
+            width: 30%;
+            height: 70%;
+        }
+        .card{
+            box-shadow:2px 4px 6px rgb(124, 124, 124);
+            text-align: center;
+            padding: .35em   .5em  .5em;
+            border-color: white;
+           
+        }
+        
+        .wrapper{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image{
+            width: 1000px;
+            position: relative;
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content:hover{
+            opacity: 1;
+        }
+
+        .content h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+        .content p{
+            font-size: 19px;
+            color: white;
+        }
+
+        .row h1{
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .mydiv{
+            text-align: center;
+        }
+.btn{
+    border-radius: 20px;
+}
+   
+
+
+
+
+
+/* 1 */
+
+
+
+.p1{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image1{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content1{
+            width:448px ;
+            height:300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content1:hover{
+            opacity: 1;
+        }
+
+        .content1 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+
+        /* 2 */
+
+
+        
+.p2{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image2{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content2{
+            width:450px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content2:hover{
+            opacity: 1;
+        }
+
+        .content2 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+
+        /* 3 */
+
+
+        
+.p3{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image3{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content3{
+            width:450px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content3:hover{
+            opacity: 1;
+        }
+
+        .content3 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+
+        /* 4 */
+
+
+        
+.p4{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image4{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content4{
+            width:448px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content4:hover{
+            opacity: 1;
+        }
+
+        .content4 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+
+
+        /* 5 */
+
+
+
+        
+.p5{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image5{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content5{
+            width:447px;
+            height: 300px;
+            position:absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content5:hover{
+            opacity: 1;
+        }
+
+        .content5 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+
+
+        /* 6 */
+
+
+        
+.p6{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 75px;
+        }
+        .image6{
+            position: relative;
+        
+            
+        }
+
+        img{
+            width: 100%;
+            display: block;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        .content6{
+            width:auto;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            opacity: 0;
+            transition: 0.6s;
+            border-radius: 10px;
+        }
+
+        .content6:hover{
+            opacity: 1;
+        }
+
+        .content6 h1{
+            font-size: 45px;
+            color: rgb(233, 240, 9);
+            margin-bottom: 15px;
+        }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style> 
+    
+    
+
+      <!-- center to image this code   -->
+      <div class="container">
+        <div class="img-center ">
+      <img width="300px" height="200px" src="https://www.adventurouskate.com/wp-content/uploads/2019/11/adventurouskate-logo.svg" alt="" class="mx-auto d-block"> 
+  </div>
+  </div>
+  </head>
+
+<body>
+
+
+  <div class="">
+
+<!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container ">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="nav  p-5 ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ABOUT
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">WHERE I'VE BEEN</a></li>
+                      <li><a class="dropdown-item" href="#">PRESS</a></li>
+                     
+                      <li><a class="dropdown-item" href="#">WORK WITH KATE</a></li>
+                    </ul>
+                  </li>
+
+             <li class="nav-item">
+                <a class="nav-link" href="#">BLOG</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">DESTINATION</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">SOLO FEMALE TRAVEL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TRAVEL RESOURCES</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+             </ul>
+
+             <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+              </form>
+           
+          </div>
+        </div>
+      </nav>
+
+  </div>
+
+
+
+  <div class="container mt-5">
+    <div class="position-relative">
+
+
+        <img width="1000px" height="800px" src="https://thisweekinblogging.com/wp-content/uploads/2020/09/patreon-bloggers-adventurous-kate-600x438.jpg" alt="" class="mx-auto d-block">
+
+       
+        <div class="text-overlay">
+            <h1>Hi! I'm Kate.</h1>
+            <p>I teach women how to travel the world safely — and I'm here to help you have the best trip ever.</p>
+            <p>I quit my job to travel the world alone in 2010. 12 years later, I’ve traveled to 83 countries and all seven continents! Oh, and I never went back to a "real" job.</p>
+            <p>Whether you need guidance for your first solo trip or you’re a seasoned traveler looking for destination inspiration, you’ve come to the right place!</p>
+            <a href="#" class="btn btn-danger">Learn more about me</a>
+        </div>
+    </div>
+</div>
+
+<!-- card -->
+<div class="row m-3  p-3  w-100  " >
+
+<div class="col-6">
+    <div class="card" style="width: 40rem; height: 350px;">
+        <div class="card-body">
+<p >
+  <h4>  You’re the most genuine blogger I’ve ever read…I’ve consumed a lot of blogs and travel related content in the past decade but you’re the only one I really trust and can genuinely say puts your readers first.</h4> <br><br>
+
+   <h1>Britt</h1>  
+    
+   <h4>Australia</h4> 
+
+
+</p>
+
+  </div></div></div>
+
+
+  <div class="col-6">
+    <div class="card" style="width: 40rem;  height: 350px;">
+        <div class="card-body">
+            <p>
+                <h4>   No one tackles the uncomfortable and difficult subjects like Kate does. I feel like she makes me a more aware and ethical traveler. It’s a complete bonus that reading her is like manifesting that wickedly intelligent, hilarious well-traveled friend we would all love to have. </h4><br>
+                <h1>Crys</h1>
+                <h4>Usa</h4>
+</p>
+  </div></div></div>
+
+
+
+
+
+</div>
+
+<!-- wrapper -->
+<a href="">
+
+    <div class="wrapper">
+        <div class="image" >
+            
+        
+               <img height="350px"  src="https://www.adventurouskate.com/wp-content/uploads/2015/06/DSC_0295.jpg" alt="">
+        
+               <div class="content">
+                    <h1>  SOLO FEMALE TRAVEL GUIDES</h1>
+                    
+                    <p>Learn how to stay safe around the world.</p>
+                </div>
+            </div>
+        </div>
+
+</a>
+<br>
+<br>
+
+<!-- latest blog post -->
+
+
+
+
+<div class="row m-3  p-5  w-100 " >
+    <h1 class="">LATEST BLOG POSTS</h1>
+
+<div class="col-4">
+
+    <a href="">
+        <img width="300px" height="300px" src="https://media.tacdn.com/media/attractions-splice-spp-674x446/12/6f/78/da.jpg"  alt="...">
+    </a>
+    <p><h1>18 Best Views in Florence,Italy</h1></p>
+    </div>
+
+
+        <div class="col-4">
+            <a href="">
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2024/08/Kate-in-Croatia-Ho-Hat-1536x1152.jpg.webp"  alt="...">
+             </a>
+    <p><h1>AK Monthly Recap : July 2024</h1></p>
+     </div>
+
+
+            
+    
+        <div class="col-4">
+            <a href="">
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2024/07/Girls-in-Scottsdale-AZ-1536x1152.jpg.webp"  alt="...">
+            </a>
+        <p><h1>The Perfect Scottsdale Girls'Trip in 16 Steps</h1></p>
+        </div>
+
+          </div>
+
+
+          <div class="mydiv">
+            <button type="button" class="btn btn-danger btn-lg btn">MORE FORM THE BLOG</button></div>
+         
+
+<!-- ......TOP DESTINATIONS -->
+
+<div class="row m-3  p-5  w-100 " >
+    <h1 class="">TOP DESTINATIONS</h1>
+
+
+    
+
+<div class="col">
+
+    <a href="">
+
+
+        <div class="p1">
+            <div class="image1" >
+
+
+        <img class="" width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2022/03/Famous-Streets-of-Paris.jpg.webp"  alt="...">
+
+
+ <div class="content1">
+                    <h1>PARIS</h1>
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+    </a>
+</div>
+    
+
+
+        <div class="col">
+            <a href="">
+
+                <div class="p2">
+                    <div class="image2" >
+
+
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2023/12/Bari-Italy-from-above-1536x1023.jpg.webp"  alt="...">
+            
+
+                
+ <div class="content2">
+    <h1> ITALY</h1>
+    
+    
+</div>
+</div>
+</div>
+            
+            
+            </a>
+     </div>
+
+
+            
+    
+        <div class="col">
+            <a href="">
+
+                <div class="p3">
+                    <div class="image3" >
+
+
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2022/01/Best-Time-to-Visit-New-York-1536x1028.jpg.webp"  alt="...">
+            
+            
+
+             
+ <div class="content3">
+    <h1>NEW YORK</h1>
+    
+    
+</div>
+</div>
+</div>
+            
+            </a>
+        </div>
+
+          </div>
+
+
+          
+
+          
+<div class="row m-3  p-5  w-100 " >
+    
+
+<div class="col">
+
+    <a href="">
+
+        <div class="p4">
+            <div class="image4" >
+
+
+        <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2023/10/Ischia-Italy-from-Above-1536x1030.jpg.webp"  alt="...">
+    
+    
+ <div class="content4">
+    <h1> BEACH GETAWAYS</h1>
+    
+    
+</div>
+</div>
+</div>
+    
+    </a>
+    </div>
+
+
+        <div class="col">
+            <a href="">
+
+
+                <div class="p5">
+                    <div class="image5" >
+
+
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2021/04/Prague-1536x1034.jpg.webp"  alt="...">
+             
+            
+ <div class="content5">
+    <h1> CITY BREAKS</h1>
+    
+    
+</div>
+</div>
+</div>
+            
+            </a>
+     </div>
+
+
+            
+    
+        <div class="col">
+            <a href="">
+
+                <div class="p6">
+                    <div class="image6" >
+
+
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2022/05/Tropea-Italy-1-1536x1024.jpg.webp"  alt="...">
+            
+            
+ <div class="content6">
+    <h1>OFF THE BEATEN PATH</h1>
+    
+    
+</div>
+</div>
+</div>
+            
+            
+            </a>
+        </div>
+
+          </div>
+
+
+          <div class="mydiv">
+            <button type="button" class="btn btn-danger btn-lg btn">See All Destinations</button></div>
+
+
+
+
+            <!-- 2 -->
+
+
+            
+<div class="row m-3  p-5  w-100 " >
+    <h1 class="">POPULAR POSTS</h1>
+
+<div class="col-4">
+
+    <a href="">
+        <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2017/10/DSCF8244-400x300.jpg.webp"  alt="...">
+    </a>
+    <p><h1>How to be less of a travelling asshole in 2020</h1></p>
+    </div>
+
+
+        <div class="col-4">
+            <a href="">
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2015/05/DSC_0434-400x300.jpg.webp"  alt="...">
+             </a>
+    <p><h1>Backpacking southeast Asia vs. Backpacking central America</h1></p>
+     </div>
+
+
+            
+    
+        <div class="col-4">
+            <a href="">
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2015/08/image61-400x300.jpeg.webp"  alt="...">
+            </a>
+        <p><h1>100 Travel Tips for Paris</h1></p>
+        </div>
+
+          </div>
+
+
+          <!-- 3 -->
+
+
+ 
+<div class="row m-3  p-5  w-100 " >
+    <h1 class="">SOLO FEMALE TRAVEL POSTS</h1>
+
+<div class="col-4">
+
+    <a href="">
+        <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2015/03/Travel-Safety-Tips-400x300.jpg.webp"  alt="...">
+    </a>
+    <p><h1>Top 10 travel safety tips for Women</h1></p>
+    </div>
+
+
+        <div class="col-4">
+            <a href="">
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2016/10/DSCF8087-400x300.jpg.webp"  alt="...">
+             </a>
+    <p><h1>How to survive pre-trip Anxiety</h1></p>
+     </div>
+
+
+            
+    
+        <div class="col-4">
+            <a href="">
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2018/12/DSCF6389-400x300.jpg.webp"  alt="...">
+            </a>
+        <p><h1>Travel safety : Always consider the Source</h1></p>
+        </div>
+
+          </div>
+
+
+          <div class="mydiv">
+            <button type="button" class="btn btn-danger btn-lg btn">MORE SOLD FEMALE TRAVEL POSTS</button></div>
+    
+
+            <!-- 4 -->
+ 
+            
+                        
+<div class="row m-3  p-5  w-100 " >
+    <h1 class="">BEST USA GETAWAYS</h1>
+
+<div class="col-4">
+
+    <a href="">
+        <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2018/05/DSCF2084-400x300.jpg.webp"  alt="...">
+    </a>
+    <p><h1>Solo female travel in new orleans : how to stay safe and have fun ! </h1></p>
+    </div>
+
+
+        <div class="col-4">
+            <a href="">
+                <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2017/06/DSCF5990-400x300.jpg.webp"  alt="...">
+             </a>
+    <p><h1>14 reason why I'm smitten with asheville,North Carolina</h1></p>
+     </div>
+
+
+            
+    
+        <div class="col-4">
+            <a href="">
+             <img width="300px" height="300px" src="https://www.adventurouskate.com/wp-content/uploads/2016/05/DSCF4922-400x300.jpg.webp"  alt="...">
+            </a>
+        <p><h1>How to spend three days in Savannah</h1></p>
+        </div>
+
+          </div>
+
+          <div class="h">
+            <h1 class="text-center">AS SEEN IN</h1>
+            
+          </div>
+
+
+          <!-- AS SEEN IN -->
+
+
+
+          
+<div class="row m-3  p-5  w-100 " >
+    
+
+<div class="col-2">
+
+    
+        <img width="200px" height="150px" src="https://cdn.prod.website-files.com/649b8ab4a5eb52039dce4a28/6621410f02470396bf7d9407_Forbes-logo.png"  alt="...">
+    
+    
+    </div>
+
+
+        <div class="col-2">
+            
+                <img width="200px" height="150px" src="https://mercomcapital.com/wp-content/uploads/2019/03/cnn-logo-black-transparent.png"  alt="...">
+            
+   
+     </div>
+
+
+            
+    
+        <div class="col-2">
+            
+             <img width="300px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/4/40/New_York_Times_logo_variation.jpg"  alt="...">
+            
+       
+        </div>
+
+        
+<div class="col-2">
+
+    
+        <img width="300px" height="150px" src="https://media.callvalerio.com/wp-content/uploads/2022/04/VOGUE-Logo.png?lossy=1&ssl=1"  alt="...">
+    
+    
+    </div>
+
+
+        <div class="col-2">
+            
+                <img width="300px" height="150px" src="https://logos-world.net/wp-content/uploads/2023/05/Glamour-Logo.png"  alt="...">
+             
+    
+     </div>
+
+
+            
+    
+        <div class="col-2">
+            
+             <img width="300px" height="150px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6I49s37t5MSNcLCkLHEINLJt2gtwp6F9hwA&s"  alt="...">
+            
+       
+        </div>
+
+          </div>
+
+
+          <!-- form -->
+
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5">
+                <div class="card-body">
+                    <h3 class="card-title text-center">Get Email Updates from Kate</h3>
+                    <p class="text-center">Kate shares more in her emails. Get travel tips, exclusive stories, and more.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label"></label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Your first name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label"></label>
+                            <input type="email" class="form-control" id="emailAddress" placeholder="Your email address">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+                    </form>
+                    <p class="text-center mt-3">Absolutely no spam.</p><br><br>
+                    <p class="text-center">Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><br><br><br>
+
+<!-- footer -->
+
+<footer style="background-color: #333; color: #fff; padding: 10px; text-align: center; display: flex; justify-content: space-between; align-items: center;">
+    <div>
+      &copy; 2024 Adventurous Kate | Powered by Reggio Digital
+    </div>
+    <div>
+      <a href="#" style="color: white; text-decoration:none; ">Work With Kate Privacy Policy </a>
+      
+    </div>
+  </footer>
+
+
+
+</body>
+</html>
